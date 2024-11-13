@@ -18,8 +18,10 @@ function BusinessItem({business}) {
         <div className='mt-2'>
             <h2 className='font-bold text-lg'>{business.name}</h2>
             <div className='flex justify-between items-center'>
-                <div className='flex gap-2 items-center'>
+                <div className='flex gap-2 items-center flex-col'>
                     <p className='text-gray-500'>{business.description}</p>
+                    {/* show price */}
+                    <p className='text-gray-500 font-bold text-left'>RM {business.price}</p>
                 </div>
             </div>
         </div>

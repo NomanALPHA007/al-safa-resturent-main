@@ -4,6 +4,7 @@ import Image from "next/image";
 import CategoryList from "./_components/CategoryList";
 import GlobalApi from "./_utils/GlobalApi";
 import foodList from "./_components/BusinessList";
+import BusinessList from "./_components/BusinessList";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
     <div>
         <CategoryList/>
 
-        <foodList/>
+        <BusinessList/>
         {/* <BusinessList/> */}
 
     </div>
